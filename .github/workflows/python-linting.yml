@@ -3,10 +3,12 @@ name: linting-python-code
 on:
  push:
   branches:
-   - master 
+   - master
+   - main
  pull_request:
   branches:
    - master 
+   - main
 
 jobs:
  python-linting-code:
